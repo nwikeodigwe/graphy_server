@@ -1,5 +1,5 @@
 # Use a smaller base image for better performance and smaller image size
-FROM node:hydrogen-buster-slim
+FROM node:alpine
 
 # Set the working directory inside the container
 WORKDIR /app
