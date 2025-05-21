@@ -1,5 +1,5 @@
 # Use a smaller base image for better performance and smaller image size
-FROM node:alpine
+FROM node:23.11.1-alpine3.21
 
 # Set the working directory inside the container
 WORKDIR /app
